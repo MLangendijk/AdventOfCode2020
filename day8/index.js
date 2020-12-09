@@ -2,7 +2,6 @@ import fs from 'fs';
 
 fs.readFile('input.txt', 'utf8', (e, r) => {
 
-
     let _instructions = r.split('\r\n');
 
     function run(instructions) {
